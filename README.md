@@ -1,8 +1,15 @@
-# React + Vite
+# TASKTREK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TASKTREK is a React-based ToDo application designed to help you track and manage your projects effectively. You can organize your tasks into three categories: To Do, Doing, and Done. Additionally, tasks can be tagged with different technologies such as HTML, CSS, JavaScript, and React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Categorization of Tasks**: Organize tasks into To Do, Doing, and Done lists.
+- **Tagging**: Add tags like HTML, CSS, JavaScript, and React to tasks for easy identification.
+- **Add and Delete Tasks**: Easily add new tasks to any list and delete them when completed or no longer needed.
+- **State Management**: Utilizes React hooks (`useState` and `useEffect`) for state management.
+
+## Technologies Used
+
+- **React**: For building the user interface using functional components.
+- **React Hooks**: `useState` and `useEffect` for managing component state and side effects.
